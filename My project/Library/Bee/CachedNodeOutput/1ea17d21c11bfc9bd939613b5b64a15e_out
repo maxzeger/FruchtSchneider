@@ -1,0 +1,2 @@
+C:\Users\82800\PICO Unity Integration SDK-220\Runtime\Scripts\Utils\LitJson\JsonWriter.cs(387,21): warning CS3021: 'JsonWriter.Write(ulong)' does not need a CLSCompliant attribute because the assembly does not have a CLSCompliant attribute
+C:\Users\82800\PICO Unity Integration SDK-220\Runtime\Scripts\PXR_Plugin.cs(733,28): warning CS0414: The field 'PXR_Plugin.PXR_API_Version' is assigned but its value is never used

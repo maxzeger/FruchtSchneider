@@ -1,0 +1,595 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit EnterpriseS' Language: 'de' Physical Memory: 32717 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/82800/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52142
+Successfully changed project path to: C:/Users/82800/My project
+C:/Users/82800/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9288] Host "[IP] 141.18.24.53 [Port] 0 [Flags] 2 [Guid] 3799316234 [EditorId] 3799316234 [Version] 1048832 [Id] WindowsEditor(7,IN-G2-031-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9288] Host "[IP] 141.18.24.53 [Port] 0 [Flags] 2 [Guid] 3799316234 [EditorId] 3799316234 [Version] 1048832 [Id] WindowsEditor(7,IN-G2-031-01) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 61.12 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/82800/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     6097 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016907 seconds.
+- Loaded All Assemblies, in  0.458 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.308 seconds
+Domain Reload Profiling: 763ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (174ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (149ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (237ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\82800\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\82800\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.034 seconds
+Refreshing native plugins compatible for Editor in 14.30 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.836 seconds
+Domain Reload Profiling: 1864ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (754ms)
+		LoadAssemblies (375ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (453ms)
+			TypeCache.Refresh (414ms)
+				TypeCache.ScanAssembly (392ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 16.34 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4303 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (69.8 KB). Loaded Objects now: 4776.
+Memory consumption went from 149.0 MB to 148.9 MB.
+Total: 3.629400 ms (FindLiveObjects: 0.371600 ms CreateObjectMapping: 0.371400 ms MarkObjects: 2.749900 ms  DeleteObjects: 0.135500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/FFR.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:scripting/monoscript/fileName/OculusRestarter.cs: 086312fed17c23d20644934567c0efa4 -> 
+  custom:scripting/monoscript/fileName/OculusLoader.cs: 75943a326c910f2bd8a56211a726d430 -> 
+  custom:scripting/monoscript/fileName/Device.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:scripting/monoscript/fileName/RegisterUpdateCallback.cs: def73981cdc11dc4478a1a149bac2f7a -> 
+  custom:scripting/monoscript/fileName/OculusPlugin.cs: 6b2517b5162771a9b05655a4448e7655 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OculusBoundary.cs: dbabb042f98c4339d5caa957f951bbdf -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 1caa856f4e25d3295f59d5ab63e9f1e4 -> 
+  custom:scripting/monoscript/fileName/OculusUsages.cs: 4a9c19d207ebc7087654afe5392144aa -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ColorScale.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/OculusSettingsEditor.cs: 6ee7634d3eb167b2d53808d937bc1120 -> 
+  custom:scripting/monoscript/fileName/OculusBuildProcessor.cs: 864fc50b78919bd2f9e5313c2ad55570 -> 
+  custom:scripting/monoscript/fileName/InputFocus.cs: 39e8a2a2240c6ddc65f9c92c1dad803d -> 
+  custom:scripting/monoscript/fileName/OculusMetadata.cs: b3067b8a7a73630e362aa582d9922603 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OculusSettings.cs: 5bfda6db89b7a63e2a9f001e908d5483 -> 
+  custom:scripting/monoscript/fileName/OculusPerformance.cs: d67dc4eee8314bedf0aba14a5a97d3f2 -> 
+  custom:scripting/monoscript/fileName/OculusSession.cs: 9031c3601223e87600d38a8e63e5c9eb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OculusDevelopment.cs: dae15a4559baab566dfa4d8b06d5ef35 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6493.721206 seconds.
+  path: Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e73077995e307034ac7b7c2b1122973') in 0.135790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Models/Primitive_Torus.fbx
+  artifactKey: Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d8abb0497b803f7628a91aabf52e6b') in 0.078843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low-Poly Weapons/Models/Materials/Potions.mat
+  artifactKey: Guid(6b051bc964265438b9edf8fb79c57ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low-Poly Weapons/Models/Materials/Potions.mat using Guid(6b051bc964265438b9edf8fb79c57ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1b3b9f640a4ae1aee53f16fa207011') in 0.021328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Grass.mat
+  artifactKey: Guid(4675dd6e2ff32b14b9d1e1c5375dd872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Grass.mat using Guid(4675dd6e2ff32b14b9d1e1c5375dd872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ad5c753597c6f29ba22ae07df61e08') in 0.027523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Katana/Material/Katana.mat
+  artifactKey: Guid(8e5762105119eb0499b3bc6f152fe48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Katana/Material/Katana.mat using Guid(8e5762105119eb0499b3bc6f152fe48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ab924e5f8c673ec4c5c28904c84ca4') in 0.089888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/SimpleFX/Materials/FX_Water.mat
+  artifactKey: Guid(daf5714b1bd61c84fb8f439922ec2664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleFX/Materials/FX_Water.mat using Guid(daf5714b1bd61c84fb8f439922ec2664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557ed66bde1a792fe0940af8cffe86f2') in 0.058527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/SimpleFX/Materials/FX_GunFlash.mat
+  artifactKey: Guid(f1b0fea076fb0574d868f6e3d9523f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleFX/Materials/FX_GunFlash.mat using Guid(f1b0fea076fb0574d868f6e3d9523f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26b932be3df284a2153e00892cbdb09') in 0.028539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Plane.mat
+  artifactKey: Guid(bf347159a764ca24981a4a8fdde2dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Plane.mat using Guid(bf347159a764ca24981a4a8fdde2dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86126a7f80dd8340aef095dd8ae9f37') in 0.012958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat
+  artifactKey: Guid(37524ae4594222f4f8acd7b76234f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Rock.mat using Guid(37524ae4594222f4f8acd7b76234f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab635d707d8b048c66053d6cf7da14c') in 0.011021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Pine Tree Branch.mat
+  artifactKey: Guid(9c0a1cda53d749f40a30a84ed1657377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Pine Tree Branch.mat using Guid(9c0a1cda53d749f40a30a84ed1657377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbfb1a67f1ba9db655ae224d3b9cd50') in 0.008502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Color Pallet.mat
+  artifactKey: Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Color Pallet.mat using Guid(b725cacc7387b1f4e991c4bdfcd832c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df7cfa651bf6372bfcea641e36eba59') in 0.011852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat
+  artifactKey: Guid(138b35dd321622a4d93635b532ae8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - FirTree.mat using Guid(138b35dd321622a4d93635b532ae8b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1beed78a8a6b23e17d0aaa81799841f0') in 0.012734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Models/Primitive_Pyramid.fbx
+  artifactKey: Guid(63e02ddb08ce42da868504e1333d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Models/Primitive_Pyramid.fbx using Guid(63e02ddb08ce42da868504e1333d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271f0805bd50769c849bf888233a711d') in 0.027547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat
+  artifactKey: Guid(2a8f9a878cb7cff45b00339938d945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - TreeTrunk.mat using Guid(2a8f9a878cb7cff45b00339938d945ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d391bd3c425b4e21fc439823eb501b9') in 0.011227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/SimpleFX/Materials/FX_Base.mat
+  artifactKey: Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleFX/Materials/FX_Base.mat using Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7fccbc8fed8f4a8a5fd408d8756b1c') in 0.013116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292840fdc8ea2495b052e3179a33acbd') in 0.070125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/SimpleFX/Materials/FX_Glow.mat
+  artifactKey: Guid(040cfa3c61ad57946ae16c627e338920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleFX/Materials/FX_Glow.mat using Guid(040cfa3c61ad57946ae16c627e338920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d84ce768e8024bda1863cbb012c549d') in 0.011926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce73f4b0932f6f60192e4d383ae207c1') in 0.039165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat
+  artifactKey: Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Grass.mat using Guid(6fc6652ed834922468cdd63bb95f7fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c59f7e70237ae5d7d02d8966e13885') in 0.009868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/Low Poly Fruits/Materials/Bomb.mat
+  artifactKey: Guid(61ee8bc3c4412f54ca4e12930da7313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Low Poly Fruits/Materials/Bomb.mat using Guid(61ee8bc3c4412f54ca4e12930da7313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f3751aa9128a5c8d237138eee9c594') in 0.009648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Water.mat
+  artifactKey: Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Water.mat using Guid(94ea32e4f0f6cab4e98928aadb7d9992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60efc827f36c2cb4cf753cdb34f3b5f') in 0.297391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/Low Poly Fruits/Materials/Material.001.mat
+  artifactKey: Guid(2629bdb5f95d3aa4c8ff0bbc8840c7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Low Poly Fruits/Materials/Material.001.mat using Guid(2629bdb5f95d3aa4c8ff0bbc8840c7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05580f1c6f4b602e40d32bc6322a2525') in 0.012096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Low Poly Free Vegetation Kit/Materials/Plant Leaf.mat
+  artifactKey: Guid(fc92c30a2942a8944a1b15140e3f9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Free Vegetation Kit/Materials/Plant Leaf.mat using Guid(fc92c30a2942a8944a1b15140e3f9cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972d14c9d31a5adde628f05f5aa80d2e') in 0.012438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low-Poly Weapons/Models/Materials/Weapons.mat
+  artifactKey: Guid(1c8657c6b5cdc4eb5bcac1968488b356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low-Poly Weapons/Models/Materials/Weapons.mat using Guid(1c8657c6b5cdc4eb5bcac1968488b356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6c9c24c45c8983b2ccfb80d5aab2a6') in 0.008171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/SimpleFX/Materials/FX_Splash.mat
+  artifactKey: Guid(1ee00051305bdb049b02c923f047227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleFX/Materials/FX_Splash.mat using Guid(1ee00051305bdb049b02c923f047227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b3fca245473f9bcc19e8d2fdd91f88') in 0.017253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat
+  artifactKey: Guid(ff059fc016fcf8d4a88162b27e334cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Materials/LowPoly - Wood.mat using Guid(ff059fc016fcf8d4a88162b27e334cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a1ff3d596f8602df5c1fdb38c92a98') in 0.014485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets/SimpleFX/Materials/FX_Rubble.mat
+  artifactKey: Guid(7a9bced7715b2c047b5413e33bc60d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/SimpleFX/Materials/FX_Rubble.mat using Guid(7a9bced7715b2c047b5413e33bc60d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bc6aba58b92d408a4653cd0aa2e75e') in 0.013369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.65 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4826.
+Memory consumption went from 83.6 MB to 83.6 MB.
+Total: 4.932200 ms (FindLiveObjects: 0.378200 ms CreateObjectMapping: 0.359200 ms MarkObjects: 4.170700 ms  DeleteObjects: 0.022700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/FFR.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:scripting/monoscript/fileName/OculusRestarter.cs: 086312fed17c23d20644934567c0efa4 -> 
+  custom:scripting/monoscript/fileName/OculusLoader.cs: 75943a326c910f2bd8a56211a726d430 -> 
+  custom:scripting/monoscript/fileName/Device.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:scripting/monoscript/fileName/RegisterUpdateCallback.cs: def73981cdc11dc4478a1a149bac2f7a -> 
+  custom:scripting/monoscript/fileName/OculusPlugin.cs: 6b2517b5162771a9b05655a4448e7655 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OculusBoundary.cs: dbabb042f98c4339d5caa957f951bbdf -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 1caa856f4e25d3295f59d5ab63e9f1e4 -> 
+  custom:scripting/monoscript/fileName/OculusUsages.cs: 4a9c19d207ebc7087654afe5392144aa -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ColorScale.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/OculusSettingsEditor.cs: 6ee7634d3eb167b2d53808d937bc1120 -> 
+  custom:scripting/monoscript/fileName/OculusBuildProcessor.cs: 864fc50b78919bd2f9e5313c2ad55570 -> 
+  custom:scripting/monoscript/fileName/InputFocus.cs: 39e8a2a2240c6ddc65f9c92c1dad803d -> 
+  custom:scripting/monoscript/fileName/OculusMetadata.cs: b3067b8a7a73630e362aa582d9922603 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OculusSettings.cs: 5bfda6db89b7a63e2a9f001e908d5483 -> 
+  custom:scripting/monoscript/fileName/OculusPerformance.cs: d67dc4eee8314bedf0aba14a5a97d3f2 -> 
+  custom:scripting/monoscript/fileName/OculusSession.cs: 9031c3601223e87600d38a8e63e5c9eb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OculusDevelopment.cs: dae15a4559baab566dfa4d8b06d5ef35 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 138.216008 seconds.
+  path: Assets/Assets/fruitFill.mat
+  artifactKey: Guid(12182c5a94b1327418f7c0bf30f2eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/fruitFill.mat using Guid(12182c5a94b1327418f7c0bf30f2eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c01a8987dde08216f4ae55859c0a27') in 0.012321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\82800\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\82800\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.863 seconds
+Refreshing native plugins compatible for Editor in 20.11 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.185 seconds
+Domain Reload Profiling: 2043ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (598ms)
+		LoadAssemblies (329ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (333ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (312ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 19.02 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4276 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (44.1 KB). Loaded Objects now: 4829.
+Memory consumption went from 149.3 MB to 149.3 MB.
+Total: 3.523200 ms (FindLiveObjects: 0.367100 ms CreateObjectMapping: 0.344400 ms MarkObjects: 2.734700 ms  DeleteObjects: 0.076000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/FFR.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:scripting/monoscript/fileName/OculusRestarter.cs: 086312fed17c23d20644934567c0efa4 -> 
+  custom:scripting/monoscript/fileName/OculusLoader.cs: 75943a326c910f2bd8a56211a726d430 -> 
+  custom:scripting/monoscript/fileName/Device.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:scripting/monoscript/fileName/RegisterUpdateCallback.cs: def73981cdc11dc4478a1a149bac2f7a -> 
+  custom:scripting/monoscript/fileName/OculusPlugin.cs: 6b2517b5162771a9b05655a4448e7655 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OculusBoundary.cs: dbabb042f98c4339d5caa957f951bbdf -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 1caa856f4e25d3295f59d5ab63e9f1e4 -> 
+  custom:scripting/monoscript/fileName/OculusUsages.cs: 4a9c19d207ebc7087654afe5392144aa -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ColorScale.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/OculusSettingsEditor.cs: 6ee7634d3eb167b2d53808d937bc1120 -> 
+  custom:scripting/monoscript/fileName/OculusBuildProcessor.cs: 864fc50b78919bd2f9e5313c2ad55570 -> 
+  custom:scripting/monoscript/fileName/InputFocus.cs: 39e8a2a2240c6ddc65f9c92c1dad803d -> 
+  custom:scripting/monoscript/fileName/OculusMetadata.cs: b3067b8a7a73630e362aa582d9922603 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OculusSettings.cs: 5bfda6db89b7a63e2a9f001e908d5483 -> 
+  custom:scripting/monoscript/fileName/OculusPerformance.cs: d67dc4eee8314bedf0aba14a5a97d3f2 -> 
+  custom:scripting/monoscript/fileName/OculusSession.cs: 9031c3601223e87600d38a8e63e5c9eb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OculusDevelopment.cs: dae15a4559baab566dfa4d8b06d5ef35 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 28.31 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 4829.
+Memory consumption went from 83.4 MB to 83.4 MB.
+Total: 6.998200 ms (FindLiveObjects: 0.453900 ms CreateObjectMapping: 0.459900 ms MarkObjects: 6.057900 ms  DeleteObjects: 0.025200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/FFR.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:scripting/monoscript/fileName/OculusRestarter.cs: 086312fed17c23d20644934567c0efa4 -> 
+  custom:scripting/monoscript/fileName/OculusLoader.cs: 75943a326c910f2bd8a56211a726d430 -> 
+  custom:scripting/monoscript/fileName/Device.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:scripting/monoscript/fileName/RegisterUpdateCallback.cs: def73981cdc11dc4478a1a149bac2f7a -> 
+  custom:scripting/monoscript/fileName/OculusPlugin.cs: 6b2517b5162771a9b05655a4448e7655 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/OculusBoundary.cs: dbabb042f98c4339d5caa957f951bbdf -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 1caa856f4e25d3295f59d5ab63e9f1e4 -> 
+  custom:scripting/monoscript/fileName/OculusUsages.cs: 4a9c19d207ebc7087654afe5392144aa -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ColorScale.cs: 8726cf26051bd1b118e5a19691a28e54 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/OculusSettingsEditor.cs: 6ee7634d3eb167b2d53808d937bc1120 -> 
+  custom:scripting/monoscript/fileName/OculusBuildProcessor.cs: 864fc50b78919bd2f9e5313c2ad55570 -> 
+  custom:scripting/monoscript/fileName/InputFocus.cs: 39e8a2a2240c6ddc65f9c92c1dad803d -> 
+  custom:scripting/monoscript/fileName/OculusMetadata.cs: b3067b8a7a73630e362aa582d9922603 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OculusSettings.cs: 5bfda6db89b7a63e2a9f001e908d5483 -> 
+  custom:scripting/monoscript/fileName/OculusPerformance.cs: d67dc4eee8314bedf0aba14a5a97d3f2 -> 
+  custom:scripting/monoscript/fileName/OculusSession.cs: 9031c3601223e87600d38a8e63e5c9eb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/OculusDevelopment.cs: dae15a4559baab566dfa4d8b06d5ef35 -> 

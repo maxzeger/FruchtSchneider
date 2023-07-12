@@ -1,0 +1,603 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1689165077615546, "dur":93, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689165077615742, "dur":16951, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689165077632701, "dur":94, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689165077632828, "dur":306, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689165077633171, "dur":121, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1689165077633298, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":0, "ts":1689165077633393, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1689165077633487, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1689165077633601, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1689165077633719, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/level0.resS" }}
+,{ "pid":12345, "tid":0, "ts":1689165077633826, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1689165077633922, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634021, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634113, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634210, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634309, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634402, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634500, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634603, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634700, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634812, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":0, "ts":1689165077634907, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077635025, "dur":103, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077635253, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077635387, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077635510, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077635635, "dur":123, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077635761, "dur":112, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077635876, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077635969, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636062, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636157, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636276, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636370, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636465, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636558, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636650, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636744, "dur":110, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636858, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077636952, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637049, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637193, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637294, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637388, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637480, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637571, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637662, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637755, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637846, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077637937, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638033, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638127, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638218, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638310, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638402, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638494, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638588, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638680, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638774, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638885, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077638980, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639073, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639165, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639259, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639351, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639443, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639535, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639629, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639721, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639813, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639904, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077639996, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640087, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640181, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640274, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640365, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640458, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640591, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640689, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640785, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640876, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077640967, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641060, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641155, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641246, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641338, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641432, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641526, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641617, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641710, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641802, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641895, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077641986, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642079, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642171, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642308, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642404, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642495, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642591, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642684, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642776, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642871, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077642967, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643059, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643152, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643246, "dur":105, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643354, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643449, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643543, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643638, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643732, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643826, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077643938, "dur":180, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077644160, "dur":143, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077644313, "dur":161, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077644477, "dur":188, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077644669, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077644770, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077644861, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077644955, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077645080, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077645171, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077645273, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077645402, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077645540, "dur":127, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077645673, "dur":131, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077645810, "dur":133, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077645949, "dur":246, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077646199, "dur":198, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077646401, "dur":172, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077646577, "dur":177, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077646827, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647005, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647101, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647197, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647289, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647386, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647478, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647573, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider.exe" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647668, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647763, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647856, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1689165077647951, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648046, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648140, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648235, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648330, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648427, "dur":94, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648523, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648623, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648718, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648867, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1689165077648962, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1689165077649053, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1689165077649150, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1689165077649245, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1689165077649340, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":0, "ts":1689165077649434, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":0, "ts":1689165077649529, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":0, "ts":1689165077649624, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":0, "ts":1689165077649721, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/82800/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":0, "ts":1689165077633163, "dur":16655, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689165077649820, "dur":621645, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689165078271466, "dur":126, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689165078271593, "dur":102, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689165078271962, "dur":4578, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1689165077634986, "dur":14847, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689165077649837, "dur":8856, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689165077666709, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689165077662173, "dur":4635, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1689165077666828, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1689165077667051, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1689165077667224, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1689165077667696, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077667911, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077668108, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077668305, "dur":999, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077669307, "dur":184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077669493, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077669735, "dur":527, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077670264, "dur":728, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077670993, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077671173, "dur":256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077671432, "dur":339, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077671772, "dur":1727, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077673502, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077673678, "dur":312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077673993, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077674174, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077674401, "dur":1308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077675711, "dur":914, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077676628, "dur":232, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077676862, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077677050, "dur":2730, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077679783, "dur":251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\82800\\My project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":1, "ts":1689165077680134, "dur":558, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playera829d91e-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1689165077666826, "dur":14123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1689165077681528, "dur":99, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689165077681633, "dur":288, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689165078261890, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689165077682570, "dur":579391, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1689165078269793, "dur":198, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1689165078269792, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1689165078271343, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1689165078270028, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1689165077635232, "dur":14658, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077649893, "dur":2427, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077652321, "dur":6375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077658726, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077668256, "dur":116, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077664648, "dur":3738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1689165077668388, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689165077670768, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077668504, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1689165077671015, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1689165077671010, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1689165077673544, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077671172, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1689165077673728, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1689165077676806, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077674134, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1689165077677006, "dur":78, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077681707, "dur":1055, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077677144, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077683284, "dur":328, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077688136, "dur":62, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077683616, "dur":4598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077690173, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077688324, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077690344, "dur":3634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077696415, "dur":916, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077694081, "dur":3260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077699146, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077697487, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077701209, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077699356, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077702986, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077701407, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077705349, "dur":323, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077703149, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077705804, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077709742, "dur":171, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077708224, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077714639, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077710047, "dur":4665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077717301, "dur":8246, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077714849, "dur":10710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077727853, "dur":160, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077725688, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077728162, "dur":283, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077730564, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077728448, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077733094, "dur":253, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077730845, "dur":2512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077733450, "dur":356, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077736682, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077733809, "dur":2953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077738733, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077736879, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077741433, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077738948, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077744066, "dur":99, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077741696, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077744257, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PackageCache\\com.unity.xr.openxr@1.7.0\\RuntimeLoaders\\windows\\x64\\openxr_loader.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077744254, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077744380, "dur":155, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077749092, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077745261, "dur":3930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":2, "ts":1689165077751636, "dur":183, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077749440, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1689165077755038, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077751955, "dur":3145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1689165077764993, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1689165077755203, "dur":9894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1689165077765216, "dur":506230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077635029, "dur":14813, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077649854, "dur":2568, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077652422, "dur":6296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077658721, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1689165077668259, "dur":166, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077661147, "dur":7292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1689165077668524, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689165077670871, "dur":114, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077669030, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1689165077671182, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689165077671180, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689165077673955, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077671845, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1689165077674121, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077674119, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077676460, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077674590, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077684093, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077677073, "dur":7104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077693682, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077684311, "dur":9432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077696618, "dur":515, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077693889, "dur":3254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077699841, "dur":67, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077697384, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077700074, "dur":5674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077707573, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077705849, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077720379, "dur":1656, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077707768, "dur":14288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077727302, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077722266, "dur":5121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077730338, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077727593, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077730524, "dur":240, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077733160, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077730767, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077733367, "dur":188, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077736060, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077733558, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077738455, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077736292, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077744371, "dur":140, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077738675, "dur":5851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077744610, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PackageCache\\com.unity.xr.openxr@1.7.0\\Runtime\\windows\\x64\\UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077744608, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077744703, "dur":328, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077747847, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077745232, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":3, "ts":1689165077751344, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077748133, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1689165077754584, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077751652, "dur":2999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689165077760126, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1689165077754799, "dur":5406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1689165077760295, "dur":511149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077635104, "dur":14758, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077649865, "dur":2176, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077652042, "dur":1133, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077653175, "dur":5594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077658784, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1689165077658771, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1689165077669581, "dur":119, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077667971, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1689165077669797, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689165077672281, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077669952, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1689165077672419, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1689165077681442, "dur":286, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077672538, "dur":9207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1689165077681857, "dur":1285, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077685933, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077683149, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077688330, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077686121, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077690452, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077688547, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077695717, "dur":187, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077690666, "dur":5313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077696105, "dur":625, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077696777, "dur":4575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077705315, "dur":298, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077701528, "dur":4361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077709575, "dur":98, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077706036, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077715319, "dur":264, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077709823, "dur":5775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077717131, "dur":4404, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077724804, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077721541, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077725087, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077728289, "dur":371, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077733118, "dur":292, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077728663, "dur":4757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077733546, "dur":236, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077735743, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077733784, "dur":2026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077737897, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077735912, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077738078, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077741448, "dur":121, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077739894, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077743746, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077741719, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077743912, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1689165077751099, "dur":111, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077745743, "dur":5482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1689165077751365, "dur":91, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077758545, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1689165077751462, "dur":7168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1689165077758704, "dur":512757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077635151, "dur":14718, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077649873, "dur":2319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077652192, "dur":6510, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077658714, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1689165077667974, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077661042, "dur":7019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1689165077668158, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1689165077668156, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1689165077668296, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1689165077671211, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1689165077674026, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077671656, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1689165077674196, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077674192, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077680013, "dur":163, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077674548, "dur":5740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077684619, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077680474, "dur":4240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077693597, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077684842, "dur":8824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077696842, "dur":114, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077693783, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077697096, "dur":261, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077703527, "dur":205, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077697365, "dur":6381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077704348, "dur":321, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077713449, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077704674, "dur":8856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077716245, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077713706, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077718708, "dur":3705, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077716524, "dur":5901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077722525, "dur":109, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077725333, "dur":300, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077722638, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077727833, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077725820, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077728153, "dur":483, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077731026, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077728639, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077733431, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077731212, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077735356, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077733640, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077738151, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077735565, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077740681, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077738334, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077744354, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077740854, "dur":3609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1689165077745069, "dur":723, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\Data\\UnitySubsystems\\UnityOpenXR\\UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1689165077745068, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1689165077745800, "dur":112, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077752002, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077746933, "dur":5161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":5, "ts":1689165077769283, "dur":140, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1689165077752214, "dur":17250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1689165077769565, "dur":501882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077635195, "dur":14685, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077649883, "dur":2413, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077652296, "dur":6403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077658731, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1689165077658714, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1689165077668729, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077663536, "dur":5271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1689165077669184, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1689165077669181, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1689165077672083, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077669750, "dur":2427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1689165077672267, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1689165077672262, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1689165077675398, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077672474, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1689165077675609, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":6, "ts":1689165077675592, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider.exe" }}
+,{ "pid":12345, "tid":6, "ts":1689165077685255, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077675758, "dur":9579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider.exe" }}
+,{ "pid":12345, "tid":6, "ts":1689165077685485, "dur":4958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077693182, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077690577, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077696280, "dur":526, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077693390, "dur":3428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077696908, "dur":341, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077699941, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077697253, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077702641, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077700119, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077702891, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077706749, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077704903, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077709724, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077706921, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077709878, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077714502, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077709954, "dur":4611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077714650, "dur":74, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077720327, "dur":2396, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077714727, "dur":8006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077722814, "dur":2560, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077727652, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077725378, "dur":2355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077728148, "dur":111, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077730514, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077728261, "dur":2315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077733140, "dur":601, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077730691, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077736632, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077733862, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077738740, "dur":102, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077737069, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077738967, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077744654, "dur":353, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077740907, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077745188, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077745187, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077745271, "dur":174, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077774896, "dur":185, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1689165077745447, "dur":29675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1689165077775244, "dur":496218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077635311, "dur":14592, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077649908, "dur":2455, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077652363, "dur":6411, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077658775, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1689165077670924, "dur":114, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077666323, "dur":4728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1689165077671179, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1689165077689544, "dur":131, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077672786, "dur":16947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1689165077690462, "dur":136, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077695700, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077690600, "dur":5179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077696053, "dur":648, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077699996, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077696707, "dur":3354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077704400, "dur":325, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077700170, "dur":4566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077708497, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077704844, "dur":3745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077711306, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077708705, "dur":2665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077713956, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077711498, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077716957, "dur":5408, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077714176, "dur":8200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077722793, "dur":1863, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077727464, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077724663, "dur":2860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077728154, "dur":153, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077730284, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077728310, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077732084, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077730486, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077734836, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077732251, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077736868, "dur":96, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077735037, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077737180, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077741452, "dur":170, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077739551, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077743513, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077741737, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077746213, "dur":174, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077743707, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1689165077754408, "dur":125, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077746532, "dur":8027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1689165077763307, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1689165077754726, "dur":8814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1689165077763695, "dur":507760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077635398, "dur":14522, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077649920, "dur":2217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077652137, "dur":6561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077658732, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1689165077658713, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1689165077665181, "dur":5730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1689165077671041, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1689165077671148, "dur":98, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077675426, "dur":169, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077671249, "dur":4358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1689165077675703, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/82800/build/Fruchtschneider_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1689165077681061, "dur":116, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077676333, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1689165077681646, "dur":702, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077686605, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077682357, "dur":4324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077689186, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077686811, "dur":2465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077692851, "dur":253, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077689411, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077695971, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077693327, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077696162, "dur":589, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077698889, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077696754, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077700650, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077699077, "dur":1678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077700874, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077702868, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077713885, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077705173, "dur":8783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077716442, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077714130, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077718678, "dur":3928, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077716662, "dur":5954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077722698, "dur":1985, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077731676, "dur":307, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077724689, "dur":7307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077732944, "dur":222, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077742828, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077733170, "dur":9748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077744702, "dur":385, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077743041, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1689165077873229, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1689165077745289, "dur":128029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/82800/build/Fruchtschneider_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1689165077873402, "dur":398066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1689165078282689, "dur":2396, "ph":"X", "name": "ProfilerWriteOutput" }
+,
